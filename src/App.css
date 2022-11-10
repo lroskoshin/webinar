@@ -1,0 +1,26 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 20px
+}
+
+.message {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.message.self {
+  align-self: end;
+  background-color: green;
+}
